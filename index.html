@@ -492,27 +492,58 @@
     <!-- contact -->
 
     <!-- GALLERY -->
-    <div id="gallery" class="container">
-      <div class="row justify-content-center">
-        <div class="col">
-          <div id="carousel" class="mx-auto text-center">
-            <img src="img/car1.jpg" id="item-1" />
-            <img src="img/car2.jpg" id="item-2" />
-            <img src="img/car3.jpg" id="item-3" />
-            <img src="img/car4.jpg" id="item-4" />
-            <img src="img/car5.jpg" id="item-5" />
-            <img src="img/car6.jpg" id="item-6" />
-            <img src="img/car7.jpg" id="item-7" />
-            <img src="img/car8.jpg" id="item-8" />
-            <img src="img/car9.jpg" id="item-9" />
-            <img src="img/car10.jpg" id="item-10" />
-            <img src="img/car11.jpg" id="item-11" />
-          </div>
+    <div class="container-fluid">
+      <div id="carousel">
+         <div class="hideLeft">
+          <img src="img/car1.jpg">
+        </div>
+        <div class="prevLeftSecond">
+          <img src="img/car2.jpg">
+        </div>
+        <div class="prev">
+          <img src="img/car3.jpg">
+        </div>
+        <div class="selected">
+          <img src="img/car4.jpg">
+        </div>
+        <div class="next">
+          <img src="img/car5.jpg">
+        </div>
+        <div class="nextRightSecond">
+          <img src="img/car6.jpg">
+        </div>
+        <div class="hideRight">
+          <img src="img/car7.jpg">
+        </div>
+        <div class="hideRight">
+          <img src="img/car8.jpg">
+        </div>
+        <div class="hideRight">
+          <img src="img/car9.jpg">
+        </div>
+      </div>
+      <div id="buttons-carousel" class="row justify-content-center mb-5">
+        <div class="col text-center">
+          <button class="btn btn-outline-primary" id="prev">Prev</button>
+        </div>
+        <div class="col text-center">
+          <button class="btn btn-outline-primary" id="next">Next</button>
         </div>
       </div>
     </div>
-
     <!-- gallery -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,122.7C384,149,480,235,576,272C672,309,768,299,864,250.7C960,203,1056,117,1152,101.3C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+    <footer class="bg-dark">
+      <div class="row">
+        <div class="col text-center text-white">
+          <p>Created with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+          </svg> by Juliandi Pratama</p>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- Bootstrap JS-->
